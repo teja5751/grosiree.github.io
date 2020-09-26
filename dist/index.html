@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - grocerylist</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<div id="container">
+  <div id="page">
+    <h1 id ="header">Grocery List</h1><span id="counter"></span>
+    <ul id="sortable">
+      <li>moong dal<span class="fa fa-pencil"></span><span class="fa fa-heart-o"></span><span class="fa fa-check"></span></li>
+      <li>freedom oil<span class="fa fa-pencil"></span><span class="fa fa-heart-o"></span><span class="fa fa-check"></span></li>
+      <li>lux international<span class="fa fa-pencil"></span><span class="fa fa-heart-o"></span><span class="fa fa-check"></span></li>
+      <li>bell rice bag<span class="fa fa-pencil"></span><span class="fa fa-heart-o"></span><span class="fa fa-check"></span></li>
+      <li>surfexcel<span class="fa fa-pencil"></span><span class="fa fa-heart-o"></span><span class="fa fa-check"></span></li>
+      <li>garam masala<span class="fa fa-pencil"></span><span class="fa fa-heart-o"></span><span class="fa fa-check"></span></li>
+    </ul>
+    <p>Completed Items</p>
+    <ul id="complete"></ul>
+    <div id="newItemButton"><button href="#" id ="showForm">new item</button></div>
+    <form id="newItemForm">
+      <input type="text" id="itemDescription" maxlength="20" placeholder="Add item..." />
+      <input type="submit" id="addbutton" value="add" />
+   </div><!--.page-->
+</div><!--.container-->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
